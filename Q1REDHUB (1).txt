@@ -4,7 +4,7 @@ local success, Library = pcall(function()
         return loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/cat"))()
     else
         error("Script is not running in a Roblox game environment")
-    end
+    end)
 end)
 
 if success then
